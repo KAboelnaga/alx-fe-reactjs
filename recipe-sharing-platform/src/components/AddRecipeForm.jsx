@@ -75,7 +75,7 @@ function AddRecipeForm() {
   };
 
   return (
-    <div className="max-w-xl mx-auto p-6 bg-white rounded-xl shadow-lg mt-8">
+    <div className="max-w-xl mx-auto p-6 bg-white rounded-xl shadow-lg mt-8 md:mt-16">
       <h2 className="text-2xl font-bold mb-4">Add New Recipe</h2>
       <form onSubmit={handleSubmit} className="space-y-4">
         {/* Title */}
