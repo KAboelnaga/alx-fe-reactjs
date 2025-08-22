@@ -9,6 +9,8 @@ function HomePage() {
     )
     return (
         <div>
+        <Link to="/" className="text-blue-500 hover:underline">Home</Link>
+        <Link to="/add-recipe" className="text-blue-500 hover:underline ml-4">Add Recipe</Link>
         <h2>Recipes List</h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
             {recipes.map((recipe) => (
