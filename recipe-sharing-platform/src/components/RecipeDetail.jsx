@@ -12,7 +12,7 @@ function RecipeDetail() {
 
     }, [id]);
   return (
-  <div className='p-4'>
+  <div className='p-4 shadow-lg rounded-lg'>
       <h2 className='text-2xl font-bold'>{recipe?.title}</h2>
       <p className='mt-2'>{recipe?.summary}</p>
       <img src={recipe?.image} alt={recipe?.title} className='w-full mt-4'/>
