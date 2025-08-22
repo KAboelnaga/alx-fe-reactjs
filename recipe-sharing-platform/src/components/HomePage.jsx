@@ -14,7 +14,7 @@ function HomePage() {
             {recipes.map((recipe) => (
                 <div key={recipe.id} className="border p-4 rounded shadow">
                     <img src={recipe.image} alt={recipe.title} className="w-full"/>
-                    <h2 className="mt-2">{recipe.title}</h2>
+                    <h2 className="mt-2 hover:text-blue-500">{recipe.title}</h2>
                     <p className="mt-2">{recipe.summary}</p>
                 </div>
             ))}
